@@ -5,7 +5,7 @@ import Settings from '../icons/Settings'
 
 const Sidebar = () => {
   return (
-    <aside className="bg-purple-100 w-full max-w-[250px] h-[100vh] relative pt-18 shadow-sm hover:shadow-xl transition-shadow ease-in-out">
+    <aside className="animate bg-purple-100 w-full max-w-[250px] h-[100vh] relative pt-18 shadow-sm hover:shadow-xl transition-shadow ease-in-out">
       <div className="flex flex-col justify-start gap-4 w-full h-[100%] px-8 py-14 relative">
         <h1 className="fixed top-0 font-roboto text-blue text-2xl font-bold tracking-tight pt-14">
           Health<span className="text-purple-500 ">care.</span>

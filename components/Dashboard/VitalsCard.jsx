@@ -5,7 +5,7 @@ const VitalsCard = ({title, icon, percentage, date, bg}) => {
     console.log(percentage);
     
   return (
-    <div className='bg-purple-100 w-full 2xl:w-54 p-6 rounded-3xl'>
+    <div className='bg-purple-100 w-full 2xl:w-54 p-6 rounded-3xl transition-shadow ease-in-out hover:shadow-md'>
         <h4 className='tracking-tight text-purple-500 font-medium text-xl flex items-center gap-6'><span className='text-4xl'>{icon}</span>{title}</h4>
 
         <p className='tracking-tight text-gray-400 py-2 text-xs'>Date: {" "}{date}</p>

@@ -3,7 +3,7 @@ import BarChart from "./BarChart";
 
 const ActivityCard = () => {
   return (
-    <div className="w-full px-6 py-4 mb-2 bg-purple-100 rounded-3xl tracking-tight">
+    <div className="animate w-full px-6 py-4 mb-2 bg-purple-100 rounded-3xl tracking-tight transition-shadow ease-in-out hover:shadow-md">
       <h2 className="text-xl text-purple-500 font-semibold tracking-tight flex justify-between py-1">
         Activity{" "}
         <span className="text-gray-400 text-sm font-medium tracking-tight">

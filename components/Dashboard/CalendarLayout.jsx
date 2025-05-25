@@ -5,7 +5,7 @@ import DateLayout from "./DateLayout";
 
 const CalendarLayout = () => {
   return (
-    <div className="w-full max-w-[40rem] mt-10 p-4">
+    <div className="animate w-full max-w-[40rem] mt-10 p-4">
       {/* Calendar Label */}
       <div className="flex justify-between mb-4 w-full items-center">
         <h3 className="tracking-tight text-base font-medium">May 2025</h3>

@@ -15,7 +15,7 @@ const Dashboard = () => {
   return (
     <div className="grid grid-cols-1 2xl:grid-cols-2 w-full h-full overflow-y-auto 2xl:overflow-y-hidden">
       <section className="pt-14 px-6 w-full">
-        <div className="flex items-center">
+        <div className="animate flex items-center">
           <Input />
           <div className="w-full flex justify-end items-center gap-4 2xl:hidden">
             <div className="w-10 h-10 rounded-lg bg-blue flex justify-center items-center">
@@ -29,7 +29,7 @@ const Dashboard = () => {
           </div>
         </div>
         {/* DashBoard Heading */}
-        <div className="w-full flex justify-between items-end pt-8">
+        <div className="animate w-full flex justify-between items-end pt-8">
           <h2 className="tracking-tight text-3xl font-semibold text-purple-500">
             Dashboard
           </h2>
@@ -42,7 +42,7 @@ const Dashboard = () => {
         </div>
 
         {/* Dashboard Cards */}
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-2  mt-4">
+        <div className="animate grid grid-cols-1 gap-2 md:grid-cols-2 mt-4 ">
           {/* Anatomy Card */}
           <Anatomy />
           {/* Health Status Cards */}
@@ -61,7 +61,7 @@ const Dashboard = () => {
           </div>
         </div>
         <a
-          className="text-purple-500 tracking-tight text-sm flex justify-end stroke-purple-500 items-center gap-1 my-2"
+          className="animate text-purple-500 tracking-tight text-sm flex justify-end stroke-purple-500 items-center gap-1 my-2"
           href=""
         >
           Details{" "}
@@ -75,7 +75,7 @@ const Dashboard = () => {
       </section>
       <section className="bg-purple-100 pt-14 px-6 w-full">
         {/* Profile Links */}
-        <div className="w-full hidden 2xl:flex justify-end items-center gap-4">
+        <div className="animate w-full hidden 2xl:flex justify-end items-center gap-4">
           <div className="w-10 h-10 rounded-lg bg-blue flex justify-center items-center">
             {" "}
             <img className="w-8" src="/avatar.webp" alt="" />
@@ -89,8 +89,8 @@ const Dashboard = () => {
         <CalendarLayout />
 
         {/* Appointments */}
-        <div className="flex gap-4 w-full">
-          <div className="rounded-4xl tracking-tight bg-purple-400 text-white py-5 px-6  w-full max-w-sm">
+        <div className="animate flex gap-4 w-full">
+          <div className="rounded-4xl tracking-tight bg-purple-400 text-white py-5 px-6  w-full max-w-sm transition-shadow ease-in-out hover:shadow-sm">
             <h3 className="flex justify-between items-center font-medium text-lg">
               Dentist <span className="text-2xl">🦷</span>
             </h3>
@@ -100,7 +100,7 @@ const Dashboard = () => {
             </p>
           </div>
 
-          <div className="rounded-4xl tracking-tight bg-purple-300 text-purple-500 py-5 px-6  w-full">
+          <div className="rounded-4xl tracking-tight bg-purple-300 text-purple-500 py-5 px-6  w-full transition-shadow ease-in-out hover:shadow-sm">
             <h3 className="flex justify-between items-center font-medium text-lg">
               Physiotheraphy Appointment <span className="text-2xl">💪🏻</span>
             </h3>
@@ -110,10 +110,10 @@ const Dashboard = () => {
         </div>
 
         {/* Upcoming Schedule */}
-        <h3 className="tracking-tight text-purple-500 text-xl font-semibold my-6">
+        <h3 className="animate tracking-tight text-purple-500 text-xl font-semibold my-6">
           The Upcoming Schedule
         </h3>
-        <h4 className="tracking-tight font-medium text-gray-400 text-lg mb-2 mt-4">
+        <h4 className="animate tracking-tight font-medium text-gray-400 text-lg mb-2 mt-4">
           On Thursday
         </h4>
         <div className="w-full flex gap-4 justify-between items-center">
@@ -129,7 +129,7 @@ const Dashboard = () => {
           />
         </div>
 
-        <h4 className="tracking-tight font-medium text-gray-400 text-lg mb-2 mt-4">
+        <h4 className="animate tracking-tight font-medium text-gray-400 text-lg mb-2 mt-4">
           On Saturday
         </h4>
         <div className="w-full flex gap-4 justify-between items-center">
