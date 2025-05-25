@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-roboto: 'DM Sans', 'sans-serif';
+    --color-purple-100: #F5F9FF;
+    --color-purple-200: #E9F1FE;
+    --color-purple-400: #302EA1;
+    --color-purple-300: #D8DEF8;
+    --color-purple-500: #000045;
+    --color-blue: #00DCEA;
+    --color-crimson: #A9403E;
+    --color-green: #6BCAC1;
+    --color-orange: #FE6F4F;    
+}
+
+.sidebar-link {
+    @apply flex justify-start items-center gap-4 text-lg font-medium text-black stroke-black hover:text-purple-500 hover:stroke-purple-500 opacity-40 hover:opacity-100  py-3 transition-opacity ease-in-out tracking-tight rounded-lg
+}
+
+body {
+    font-family: 'DM Sans', 'sans-serif';  
+}
